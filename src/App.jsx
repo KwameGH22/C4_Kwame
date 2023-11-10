@@ -19,7 +19,7 @@ function App() {
           <ul>JAVASCRIPT</ul>
           <ul>REACTJS</ul>
         </div>
-        <div className="educ fname">
+        <div className="professional">
           <h2>PROFESSIONAL EXPERIENCE</h2>
           <h3>Trainee Front-end Developer</h3>
           <h4>Duties</h4>
