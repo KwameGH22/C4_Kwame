@@ -16,6 +16,21 @@
 .fname {
   margin-left: 20px;
 }
+.container {
+  display: flex;
+}
+
+
+.button {
+  width: 80px;
+  height: 50px;
+  padding: 10px;
+  background-color: white;
+  margin: 2px;
+  color: black;
+  border-style: solid;
+  margin: 10px;
+}
 
 .logo {
   height: 6em;

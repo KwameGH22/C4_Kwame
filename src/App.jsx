@@ -2,10 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Button from './components/Button'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  
   return (
     <>
       <div className="portfolio">
@@ -29,6 +30,10 @@ function App() {
             <li>Designed and developed landing pages and assets also guided designers with the best practices for designing a responsive website and email assets </li>
             <li>Contributed to the in-house UI library to create reusable components that saved over 300 hours of development time per month</li>
           </ul>
+          <div className='container'>
+            <Button label = "Signin"/>
+            <Button label = "Login"/>
+          </div>  
         </div>
       </div>
     </>
